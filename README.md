@@ -16,6 +16,10 @@ Assignment :- <br>
   2:- Send Form html with submit button, post method and action to /file route<br>
   3:- catch redirected request in /file route and save or updated based on fs.existsSync of  /messages.txt using fs.writeFile or fs.appendFile <br>
   4:- segregate route to seperate file and link to server file using node module system.<br>
+
+Lesson 5 [Theoretical]:- <br>
+Debugging of node JS app,setting up launch.json with restart and nodemon to avoid restarting debugger. Navigation starts always from app.js entry point.
+
   
 
 
