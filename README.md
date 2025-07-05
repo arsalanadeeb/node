@@ -11,6 +11,16 @@ Understand streams and different event in lifecycle, also usage of global Buffer
 
 Lesson 4 [Theoretical] :- Javascript is a SINGLE_THREADED language but the moment asyc code [like FS] comes into picture it assigned it to WORKER_POOL(in Node.js, via libuv) WP utilises multithreaded nature of os and execute asyc code(not timers and promises) in parallel. When worker pool is done with the asyc task it executes the assigned CALL_BACK to EVENT_LOOP and finally when eventLoop finds CALL_STACK empty it pushes callBack to callStack which finally gets Executed.
 
+Assignment :- <br>
+  1:- Create node server which have 2 routes [base and /file] <br>
+  2:- Send Form html with submit button, post method and action to /file route<br>
+  3:- catch redirected request in /file route and save or updated based on fs.existsSync of  /messages.txt using fs.writeFile or fs.appendFile <br>
+  4:- segregate route to seperate file and link to server file using node module system.<br>
+  
+
+
+
+
 
 
 
